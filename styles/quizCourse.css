@@ -1,0 +1,27 @@
+*{
+    padding: 0;margin: 0;
+    box-sizing: border-box;
+}
+
+.greeting{
+    color: #071952;
+    padding-bottom: 30px;
+}
+.courseCards{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    row-gap: 30px;
+    margin-bottom: 30px;
+}
+
+#card-image{
+    height: 200px;
+    padding-top: 20px;
+}
+
+#card-image1{
+    height: 200px;
+    /* padding-top: 20px; */
+}
