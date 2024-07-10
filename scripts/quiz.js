@@ -41,166 +41,166 @@ const htmlQuestions = [
         option4: '<head>',
         correctOption: '<style>'
     },
-    // {
-    //     question: 'Which is the correct HTML element to define emphasized text?',
-    //     option1: '<i>',
-    //     option2: '<em>',
-    //     option3: '<italic>',
-    //     option4: '<strong>',
-    //     correctOption: '<em>'
-    // },
-    // {
-    //     question: 'Which HTML attribute specifies an alternate text for an image, if the image cannot be displayed?',
-    //     option1: 'src',
-    //     option2: 'title',
-    //     option3: 'alt',
-    //     option4: 'href',
-    //     correctOption: 'alt'
-    // },
-    // {
-    //     question: 'How can you create an ordered list?',
-    //     option1: '<ul>',
-    //     option2: '<ol>',
-    //     option3: '<list>',
-    //     option4: '<dl>',
-    //     correctOption: '<ol>'
-    // },
-    // {
-    //     question: 'Which HTML element defines navigation links?',
-    //     option1: '<nav>',
-    //     option2: '<navigate>',
-    //     option3: '<navigate>',
-    //     option4: '<navlink>',
-    //     correctOption: '<nav>'
-    // },
-    // {
-    //     question: 'What is the correct HTML element for playing video files?',
-    //     option1: '<media>',
-    //     option2: '<video>',
-    //     option3: '<movie>',
-    //     option4: '<film>',
-    //     correctOption: '<video>'
-    // },
-    // {
-    //     question: 'How can you make a numbered list?',
-    //     option1: '<list>',
-    //     option2: '<dl>',
-    //     option3: '<ul>',
-    //     option4: '<ol>',
-    //     correctOption: '<ol>'
-    // },
-    // {
-    //     question: 'Which HTML element is used to specify a footer for a document or section?',
-    //     option1: '<bottom>',
-    //     option2: '<footer>',
-    //     option3: '<foot>',
-    //     option4: '<section>',
-    //     correctOption: '<footer>'
-    // },
-    // {
-    //     question: 'What is the correct HTML element for inserting an image?',
-    //     option1: '<img>',
-    //     option2: '<image>',
-    //     option3: '<pic>',
-    //     option4: '<photo>',
-    //     correctOption: '<img>'
-    // },
-    // {
-    //     question: 'Which doctype is correct for HTML5?',
-    //     option1: '<!DOCTYPE html>',
-    //     option2: '<!DOCTYPE HTML5>',
-    //     option3: '<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 5.0//EN">',
-    //     option4: '<!DOCTYPE html5>',
-    //     correctOption: '<!DOCTYPE html>'
-    // },
-    // {
-    //     question: 'What is the correct HTML for creating a hyperlink?',
-    //     option1: '<a href="http://www.example.com">Example</a>',
-    //     option2: '<link url="http://www.example.com">Example</link>',
-    //     option3: '<a>http://www.example.com</a>',
-    //     option4: '<a name="http://www.example.com">Example</a>',
-    //     correctOption: '<a href="http://www.example.com">Example</a>'
-    // },
-    // {
-    //     question: 'Which character is used to indicate an end tag?',
-    //     option1: '*',
-    //     option2: '/',
-    //     option3: '<',
-    //     option4: '^',
-    //     correctOption: '/'
-    // },
-    // {
-    //     question: 'How can you open a link in a new tab/browser window?',
-    //     option1: '<a href="url" new>',
-    //     option2: '<a href="url" target="_blank">',
-    //     option3: '<a href="url" target="new">',
-    //     option4: '<a href="url" target="new_tab">',
-    //     correctOption: '<a href="url" target="_blank">'
-    // },
-    // {
-    //     question: 'Which HTML element is used to define important text?',
-    //     option1: '<b>',
-    //     option2: '<strong>',
-    //     option3: '<i>',
-    //     option4: '<important>',
-    //     correctOption: '<strong>'
-    // },
-    // {
-    //     question: 'Which HTML element is used to define a block of text that has been quoted from another source?',
-    //     option1: '<blockquote>',
-    //     option2: '<q>',
-    //     option3: '<quote>',
-    //     option4: '<cite>',
-    //     correctOption: '<blockquote>'
-    // },
-    // {
-    //     question: 'Which HTML element is used to define a table?',
-    //     option1: '<tbl>',
-    //     option2: '<table>',
-    //     option3: '<t>',
-    //     option4: '<tab>',
-    //     correctOption: '<table>'
-    // },
-    // {
-    //     question: 'Which HTML element is used to define a list item?',
-    //     option1: '<li>',
-    //     option2: '<list>',
-    //     option3: '<item>',
-    //     option4: '<ul>',
-    //     correctOption: '<li>'
-    // },
-    // {
-    //     question: 'Which HTML element is used to define a division or a section?',
-    //     option1: '<div>',
-    //     option2: '<sec>',
-    //     option3: '<section>',
-    //     option4: '<divs>',
-    //     correctOption: '<div>'
-    // },
-    // {
-    //     question: 'What is the correct HTML for making a text input field?',
-    //     option1: '<input type="textfield">',
-    //     option2: '<textinput>',
-    //     option3: '<textfield>',
-    //     option4: '<input type="text">',
-    //     correctOption: '<input type="text">'
-    // },
-    // {
-    //     question: 'Which HTML attribute is used to specify that an input field must be filled out?',
-    //     option1: 'placeholder',
-    //     option2: 'formvalidate',
-    //     option3: 'required',
-    //     option4: 'validate',
-    //     correctOption: 'required'
-    // },
-    // {
-    //     question: 'Which HTML element is used to define the document title that is shown in the browser’s title bar or on the page’s tab?',
-    //     option1: '<meta>',
-    //     option2: '<title>',
-    //     option3: '<head>',
-    //     option4: '<link>',
-    //     correctOption: '<title>'
-    // }
+    {
+        question: 'Which is the correct HTML element to define emphasized text?',
+        option1: '<i>',
+        option2: '<em>',
+        option3: '<italic>',
+        option4: '<strong>',
+        correctOption: '<em>'
+    },
+    {
+        question: 'Which HTML attribute specifies an alternate text for an image, if the image cannot be displayed?',
+        option1: 'src',
+        option2: 'title',
+        option3: 'alt',
+        option4: 'href',
+        correctOption: 'alt'
+    },
+    {
+        question: 'How can you create an ordered list?',
+        option1: '<ul>',
+        option2: '<ol>',
+        option3: '<list>',
+        option4: '<dl>',
+        correctOption: '<ol>'
+    },
+    {
+        question: 'Which HTML element defines navigation links?',
+        option1: '<nav>',
+        option2: '<navigate>',
+        option3: '<navigate>',
+        option4: '<navlink>',
+        correctOption: '<nav>'
+    },
+    {
+        question: 'What is the correct HTML element for playing video files?',
+        option1: '<media>',
+        option2: '<video>',
+        option3: '<movie>',
+        option4: '<film>',
+        correctOption: '<video>'
+    },
+    {
+        question: 'How can you make a numbered list?',
+        option1: '<list>',
+        option2: '<dl>',
+        option3: '<ul>',
+        option4: '<ol>',
+        correctOption: '<ol>'
+    },
+    {
+        question: 'Which HTML element is used to specify a footer for a document or section?',
+        option1: '<bottom>',
+        option2: '<footer>',
+        option3: '<foot>',
+        option4: '<section>',
+        correctOption: '<footer>'
+    },
+    {
+        question: 'What is the correct HTML element for inserting an image?',
+        option1: '<img>',
+        option2: '<image>',
+        option3: '<pic>',
+        option4: '<photo>',
+        correctOption: '<img>'
+    },
+    {
+        question: 'Which doctype is correct for HTML5?',
+        option1: '<!DOCTYPE html>',
+        option2: '<!DOCTYPE HTML5>',
+        option3: '<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 5.0//EN">',
+        option4: '<!DOCTYPE html5>',
+        correctOption: '<!DOCTYPE html>'
+    },
+    {
+        question: 'Who is making the Web standards?',
+        option1: 'Google',
+        option2: 'The World Wide Web Consortium',
+        option3: 'Microsoft',
+        option3: 'Apple',
+        correctOption: "The World Wide Web Consortium"
+    },
+    {
+        question: 'Which character is used to indicate an end tag?',
+        option1: '*',
+        option2: '/',
+        option3: '<',
+        option4: '^',
+        correctOption: '/'
+    },
+    {
+        question: 'How can you open a link in a new tab/browser window?',
+        option1: '<a href="url" new>',
+        option2: '<a href="url" target="_blank">',
+        option3: '<a href="url" target="new">',
+        option4: '<a href="url" target="new_tab">',
+        correctOption: '<a href="url" target="_blank">'
+    },
+    {
+        question: 'Which HTML element is used to define important text?',
+        option1: '<b>',
+        option2: '<strong>',
+        option3: '<i>',
+        option4: '<important>',
+        correctOption: '<strong>'
+    },
+    {
+        question: 'Which HTML element is used to define a block of text that has been quoted from another source?',
+        option1: '<blockquote>',
+        option2: '<q>',
+        option3: '<quote>',
+        option4: '<cite>',
+        correctOption: '<blockquote>'
+    },
+    {
+        question: 'Which HTML element is used to define a table?',
+        option1: '<tbl>',
+        option2: '<table>',
+        option3: '<t>',
+        option4: '<tab>',
+        correctOption: '<table>'
+    },
+    {
+        question: 'Which HTML element is used to define a list item?',
+        option1: '<li>',
+        option2: '<list>',
+        option3: '<item>',
+        option4: '<ul>',
+        correctOption: '<li>'
+    },
+    {
+        question: 'Which HTML element is used to define a division or a section?',
+        option1: '<div>',
+        option2: '<sec>',
+        option3: '<section>',
+        option4: '<divs>',
+        correctOption: '<div>'
+    },
+    {
+        question: 'What is the correct HTML for making a text input field?',
+        option1: '<input type="textfield">',
+        option2: '<textinput>',
+        option3: '<textfield>',
+        option4: '<input type="text">',
+        correctOption: '<input type="text">'
+    },
+    {
+        question: 'Which HTML attribute is used to specify that an input field must be filled out?',
+        option1: 'placeholder',
+        option2: 'formvalidate',
+        option3: 'required',
+        option4: 'validate',
+        correctOption: 'required'
+    },
+    {
+        question: 'Which HTML element is used to define the document title that is shown in the browser’s title bar or on the page’s tab?',
+        option1: '<meta>',
+        option2: '<title>',
+        option3: '<head>',
+        option4: '<link>',
+        correctOption: '<title>'
+    }
 ];
 
 
@@ -268,6 +268,7 @@ function nextQuestion() {
                 text: 'You are Failed!' +"  "+ "Your Score is "+  scoreBoard , 
                 footer: '<a href="quizDetails.html">RETAKE QUIZ</a>'
               })
+              changePageLocation()
         };
         
 
