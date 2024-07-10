@@ -2,137 +2,206 @@
 
 const htmlQuestions = [
     {
-        question: "What is HTML used for?",
-        options: ["Structuring web pages", "Styling web pages", "Programming web pages", "Managing databases"],
-        answer: "Structuring web pages"
+        question: 'Choose the correct HTML element for the largest heading:',
+        option1: '<heading>',
+        option2: '<h6>',
+        option3: '<h1>',
+        option4: '<head>',
+        correctOption: '<h1>'
     },
     {
-        question: "Who is credited with inventing HTML?",
-        options: ["Bill Gates", "Tim Berners-Lee", "Larry Page", "Mark Zuckerberg"],
-        answer: "Tim Berners-Lee"
+        question: 'What does HTML stand for?',
+        option1: 'Hyperlinks and Text Markup Language',
+        option2: 'Home Tool Markup Language',
+        option3: 'Hyper Text Markup Language',
+        option4: 'Hyperlinking Text Markup Language',
+        correctOption: 'Hyper Text Markup Language'
     },
     {
-        question: "What does the 'DOCTYPE' declaration do?",
-        options: ["Defines the document type", "Links external CSS", "Includes JavaScript files", "Creates a section"],
-        answer: "Defines the document type"
+        question: 'What is the correct HTML element for inserting a line break?',
+        option1: '<lb>',
+        option2: '<break>',
+        option3: '<br>',
+        option4: '<ln>',
+        correctOption: '<br>'
     },
     {
-        question: "What does the 'lang' attribute specify?",
-        options: ["Programming language", "Natural language", "Font style", "Screen reader mode"],
-        answer: "Natural language"
+        question: 'Which HTML attribute is used to define inline styles?',
+        option1: 'font',
+        option2: 'styles',
+        option3: 'style',
+        option4: 'class',
+        correctOption: 'style'
     },
     {
-        question: "Which attribute is used to provide an advisory text about an element?",
-        options: ["title", "alt", "src", "href"],
-        answer: "title"
+        question: 'Which HTML tag is used to define an internal style sheet?',
+        option1: '<css>',
+        option2: '<script>',
+        option3: '<style>',
+        option4: '<head>',
+        correctOption: '<style>'
     },
-    {
-        question: "Which HTML attribute is used to define inline styles?",
-        options: ["style", "class", "id", "css"],
-        answer: "style"
-    },
-    {
-        question: "What is the purpose of the 'meta' tag?",
-        options: ["Provide metadata", "Create links", "Embed images", "Structure the document"],
-        answer: "Provide metadata"
-    },
-    {
-        question: "What is the function of the 'charset' attribute in a 'meta' tag?",
-        options: ["Specify character encoding", "Define CSS styles", "Link JavaScript files", "Set viewport settings"],
-        answer: "Specify character encoding"
-    },
-    {
-        question: "What is the primary purpose of the 'alt' attribute in image tags?",
-        options: ["Display alternate text", "Define image size", "Create hyperlinks", "Add CSS classes"],
-        answer: "Display alternate text"
-    },
-    {
-        question: "What does the 'href' attribute specify?",
-        options: ["URL of the linked resource", "Image source", "CSS class", "JavaScript function"],
-        answer: "URL of the linked resource"
-    },
-    {
-        question: "What is the 'viewport' meta tag used for?",
-        options: ["Control layout on mobile browsers", "Specify character encoding", "Link external scripts", "Embed videos"],
-        answer: "Control layout on mobile browsers"
-    },
-    {
-        question: "What is the 'rel' attribute used for in link tags?",
-        options: ["Specify the relationship between documents", "Define image source", "Embed scripts", "Add styles"],
-        answer: "Specify the relationship between documents"
-    },
-    {
-        question: "What is the purpose of 'data-*' attributes?",
-        options: ["Store custom data", "Define classes", "Link stylesheets", "Add comments"],
-        answer: "Store custom data"
-    },
-    {
-        question: "What does the 'name' attribute do in form elements?",
-        options: ["Identify form data", "Create links", "Embed images", "Define styles"],
-        answer: "Identify form data"
-    },
-    {
-        question: "What is the 'action' attribute in a form used for?",
-        options: ["Specify the URL to send form data to", "Define form layout", "Style form elements", "Embed images"],
-        answer: "Specify the URL to send form data to"
-    },
-    {
-        question: "What does the 'method' attribute in a form specify?",
-        options: ["HTTP method to use", "CSS styles", "JavaScript function", "Form validation rules"],
-        answer: "HTTP method to use"
-    },
-    {
-        question: "What is the 'placeholder' attribute used for?",
-        options: ["Provide hint text", "Style elements", "Embed images", "Link external files"],
-        answer: "Provide hint text"
-    },
-    {
-        question: "What does the 'required' attribute do in a form input?",
-        options: ["Make the field mandatory", "Style the input", "Link external files", "Provide alternate text"],
-        answer: "Make the field mandatory"
-    },
-    {
-        question: "What is the 'disabled' attribute used for?",
-        options: ["Disable an element", "Define styles", "Embed images", "Create links"],
-        answer: "Disable an element"
-    },
-    {
-        question: "What is the purpose of the 'readonly' attribute in form inputs?",
-        options: ["Make the field non-editable", "Link external stylesheets", "Embed videos", "Style the input"],
-        answer: "Make the field non-editable"
-    },
-    {
-        question: "What does the 'target' attribute specify in a link?",
-        options: ["Where to open the linked document", "Image source", "CSS class", "JavaScript function"],
-        answer: "Where to open the linked document"
-    },
-    {
-        question: "What is the purpose of the 'autofocus' attribute in form inputs?",
-        options: ["Automatically focus the input field", "Style the input", "Embed images", "Create links"],
-        answer: "Automatically focus the input field"
-    },
-    {
-        question: "What does the 'download' attribute do in a link?",
-        options: ["Indicate the file to be downloaded", "Link to external stylesheets", "Embed scripts", "Add metadata"],
-        answer: "Indicate the file to be downloaded"
-    },
-    {
-        question: "What is the purpose of the 'enctype' attribute in a form?",
-        options: ["Specify how form data should be encoded", "Style form elements", "Embed images", "Link external files"],
-        answer: "Specify how form data should be encoded"
-    },
-    {
-        question: "What does the 'novalidate' attribute do in a form?",
-        options: ["Disable form validation", "Link external stylesheets", "Embed videos", "Add comments"],
-        answer: "Disable form validation"
-    }
+    // {
+    //     question: 'Which is the correct HTML element to define emphasized text?',
+    //     option1: '<i>',
+    //     option2: '<em>',
+    //     option3: '<italic>',
+    //     option4: '<strong>',
+    //     correctOption: '<em>'
+    // },
+    // {
+    //     question: 'Which HTML attribute specifies an alternate text for an image, if the image cannot be displayed?',
+    //     option1: 'src',
+    //     option2: 'title',
+    //     option3: 'alt',
+    //     option4: 'href',
+    //     correctOption: 'alt'
+    // },
+    // {
+    //     question: 'How can you create an ordered list?',
+    //     option1: '<ul>',
+    //     option2: '<ol>',
+    //     option3: '<list>',
+    //     option4: '<dl>',
+    //     correctOption: '<ol>'
+    // },
+    // {
+    //     question: 'Which HTML element defines navigation links?',
+    //     option1: '<nav>',
+    //     option2: '<navigate>',
+    //     option3: '<navigate>',
+    //     option4: '<navlink>',
+    //     correctOption: '<nav>'
+    // },
+    // {
+    //     question: 'What is the correct HTML element for playing video files?',
+    //     option1: '<media>',
+    //     option2: '<video>',
+    //     option3: '<movie>',
+    //     option4: '<film>',
+    //     correctOption: '<video>'
+    // },
+    // {
+    //     question: 'How can you make a numbered list?',
+    //     option1: '<list>',
+    //     option2: '<dl>',
+    //     option3: '<ul>',
+    //     option4: '<ol>',
+    //     correctOption: '<ol>'
+    // },
+    // {
+    //     question: 'Which HTML element is used to specify a footer for a document or section?',
+    //     option1: '<bottom>',
+    //     option2: '<footer>',
+    //     option3: '<foot>',
+    //     option4: '<section>',
+    //     correctOption: '<footer>'
+    // },
+    // {
+    //     question: 'What is the correct HTML element for inserting an image?',
+    //     option1: '<img>',
+    //     option2: '<image>',
+    //     option3: '<pic>',
+    //     option4: '<photo>',
+    //     correctOption: '<img>'
+    // },
+    // {
+    //     question: 'Which doctype is correct for HTML5?',
+    //     option1: '<!DOCTYPE html>',
+    //     option2: '<!DOCTYPE HTML5>',
+    //     option3: '<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 5.0//EN">',
+    //     option4: '<!DOCTYPE html5>',
+    //     correctOption: '<!DOCTYPE html>'
+    // },
+    // {
+    //     question: 'What is the correct HTML for creating a hyperlink?',
+    //     option1: '<a href="http://www.example.com">Example</a>',
+    //     option2: '<link url="http://www.example.com">Example</link>',
+    //     option3: '<a>http://www.example.com</a>',
+    //     option4: '<a name="http://www.example.com">Example</a>',
+    //     correctOption: '<a href="http://www.example.com">Example</a>'
+    // },
+    // {
+    //     question: 'Which character is used to indicate an end tag?',
+    //     option1: '*',
+    //     option2: '/',
+    //     option3: '<',
+    //     option4: '^',
+    //     correctOption: '/'
+    // },
+    // {
+    //     question: 'How can you open a link in a new tab/browser window?',
+    //     option1: '<a href="url" new>',
+    //     option2: '<a href="url" target="_blank">',
+    //     option3: '<a href="url" target="new">',
+    //     option4: '<a href="url" target="new_tab">',
+    //     correctOption: '<a href="url" target="_blank">'
+    // },
+    // {
+    //     question: 'Which HTML element is used to define important text?',
+    //     option1: '<b>',
+    //     option2: '<strong>',
+    //     option3: '<i>',
+    //     option4: '<important>',
+    //     correctOption: '<strong>'
+    // },
+    // {
+    //     question: 'Which HTML element is used to define a block of text that has been quoted from another source?',
+    //     option1: '<blockquote>',
+    //     option2: '<q>',
+    //     option3: '<quote>',
+    //     option4: '<cite>',
+    //     correctOption: '<blockquote>'
+    // },
+    // {
+    //     question: 'Which HTML element is used to define a table?',
+    //     option1: '<tbl>',
+    //     option2: '<table>',
+    //     option3: '<t>',
+    //     option4: '<tab>',
+    //     correctOption: '<table>'
+    // },
+    // {
+    //     question: 'Which HTML element is used to define a list item?',
+    //     option1: '<li>',
+    //     option2: '<list>',
+    //     option3: '<item>',
+    //     option4: '<ul>',
+    //     correctOption: '<li>'
+    // },
+    // {
+    //     question: 'Which HTML element is used to define a division or a section?',
+    //     option1: '<div>',
+    //     option2: '<sec>',
+    //     option3: '<section>',
+    //     option4: '<divs>',
+    //     correctOption: '<div>'
+    // },
+    // {
+    //     question: 'What is the correct HTML for making a text input field?',
+    //     option1: '<input type="textfield">',
+    //     option2: '<textinput>',
+    //     option3: '<textfield>',
+    //     option4: '<input type="text">',
+    //     correctOption: '<input type="text">'
+    // },
+    // {
+    //     question: 'Which HTML attribute is used to specify that an input field must be filled out?',
+    //     option1: 'placeholder',
+    //     option2: 'formvalidate',
+    //     option3: 'required',
+    //     option4: 'validate',
+    //     correctOption: 'required'
+    // },
+    // {
+    //     question: 'Which HTML element is used to define the document title that is shown in the browser’s title bar or on the page’s tab?',
+    //     option1: '<meta>',
+    //     option2: '<title>',
+    //     option3: '<head>',
+    //     option4: '<link>',
+    //     correctOption: '<title>'
+    // }
 ];
-
-
-
-
-
-
 
 
 let question = document.getElementById("question");
@@ -147,67 +216,76 @@ let time = document.getElementById("timer");
 let nextBtn = document.getElementById("nextBtn")
 
 
+function changePageLocation() {
+    setTimeout(function() {
+        window.location.href = 'quizCourse.html';
+    }, 4000); // Redirect after 4 seconds
+}
 
 
 let index = 0;
 let score = 0;
 
 function nextQuestion() {
-    let options = document.getElementsByName("opt");
-
-    for (let i = 0; i < options.length; i++) {
-        if (options[i].checked) {
-            let selected = options[i].value;
-            let userAnswer = htmlQuestions[i][`option${selected}`]
-            let correctAnswer = htmlQuestions[i].answer;
-            if (userAnswer === correctAnswer) {
-                score++
-                console.log(score)
-            }
-
-            console.log(selected)
-            console.log(correctAnswer)
+    var options = document.getElementsByName("opt");
+    
+    for(var i = 0; i < options.length; i++){
+    
+        if(options[i].checked){
+            var selected = options[i].value;
+            var userAnswer = htmlQuestions[index -1][`option${selected}`]
+           var correctAnswer = htmlQuestions[index -1].correctOption;
+           if ( userAnswer === correctAnswer){
+            score ++;
+           }
+            console.log()
         }
-        
+
         options[i].checked = false;
-        nextBtn.disabled=true
-        numberCount.innerHTML = index
-
-  
-
+        nextBtn.disabled = true;
     }
 
     if (index > htmlQuestions.length -1) {
-        let result = ((score / htmlQuestions.length) * 100 + "%")
-        if (result => 70) {
-            // Swal.fire({
-            //     title: "Good job!",
-            //     text: `You Are Passed! & Your Score Is ${result}`,
-            //     icon: "success"
-            //   });
-            alert("You Are Passed Your Score is"+ result)
-            
-        } else {
-            // Swal.fire({
-            //     icon: "error",
-            //     title: "Oops...",
-            //     text: "You Are Failed Your Score Is"+ result,
+
+        var scoreBoard = ((score / htmlQuestions.length) * 100 + "%" );
+        if(scoreBoard >= "70"){
+
+            Swal.fire(
+                'Congratulation! 🎉',
+                'You are Passed!' +"<br>"+ "Your Score is "+ scoreBoard ,
+                'success'
                 
-            //   });
-            alert("You Are Failed Your Score is"+ result)
+              )
+
+              changePageLocation()
+
+    
         }
+        else{
+            Swal.fire({
+                icon: 'error',
+                title: 'Oops...',
+                text: 'You are Failed!' +"  "+ "Your Score is "+  scoreBoard , 
+                footer: '<a href="quizDetails.html">RETAKE QUIZ</a>'
+              })
+        };
+        
+
     } else {
+   
+        numberCount.innerHTML = index;
         question.innerHTML = htmlQuestions[index].question;
-        option1.innerHTML = htmlQuestions[index].options[0]
-        option2.innerHTML = htmlQuestions[index].options[1]
-        option3.innerHTML = htmlQuestions[index].options[2]
-        option4.innerHTML = htmlQuestions[index].options[3]
+        option1.innerText = htmlQuestions[index].option1;
+        option2.innerText = htmlQuestions[index].option2;
+        option3.innerText = htmlQuestions[index].option3;
+        option4.innerText = htmlQuestions[index].option4;
+
         index++;
     }
 
+};
 
 
-}
 nextQuestion()
 
 function enableBtn(){
