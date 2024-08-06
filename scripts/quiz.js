@@ -1,4 +1,4 @@
-// import htmlQuestions from "../scripts/mcqs.js"
+
 
 const htmlQuestions = [
     {
