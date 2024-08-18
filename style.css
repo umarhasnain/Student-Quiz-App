@@ -1,0 +1,146 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.main{
+    background-color: whitesmoke;
+  
+}
+.header {
+    width: auto;
+    height: auto;
+    background-color: #071952;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 10px 40px;
+    gap: 10px;
+}
+
+.logo>h1 {
+    color: white;
+    padding-top: 10px;
+    font-family: sans-serif;
+    font-weight: 400;
+    font-size: 35px;
+}
+
+.hero-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 10px;
+    padding-top: 20px;
+}
+
+.btn-class{
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+#signUp-btn{
+    color: white;
+   
+}
+#signIn-btn{
+
+    color: white;
+}
+.color-span {
+    color: #071952;
+}
+
+.hero-section>h1 {
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+    font-size: 35px;
+    font-style: initial;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.hero-section > h2 {
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 35px;
+    font-style: italic;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.container {
+  
+    width: 100%;
+    display: flex;
+    align-items: center;
+  flex-wrap: wrap;
+    gap: 30px;
+    padding: 20px 30px;
+    font-size: 20px;
+
+}
+
+.sub-section1>h3 {
+    font-size: 30px;
+    color: #071952;
+}
+
+.sub-section1>span {
+    font-weight: bold;
+    font-size: 25px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+
+.sub-section1>p {
+    font-weight: 300;
+    font-size: 25px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.sub-section2>h3 {
+    font-size: 30px;
+    color: #071952;
+}
+
+.sub-section2>span {
+    font-weight: bold;
+    font-size: 25px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+
+.sub-section2>p {
+    font-weight: 300;
+    font-size: 25px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.sub-section3>h3 {
+    font-size: 30px;
+    color: #071952;
+}
+
+.sub-section3>span {
+    font-weight: bold;
+    font-size: 25px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+
+}
+
+.sub-section3>p {
+    font-weight: 300;
+    font-size: 25px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.footer{
+    height: 60px;
+    width: auto;
+    background-color: white;
+    text-align: center;
+    padding: 20px;
+}
