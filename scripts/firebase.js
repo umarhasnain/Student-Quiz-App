@@ -5,7 +5,8 @@ import {
   signInWithEmailAndPassword,
   RecaptchaVerifier,
   signInWithPhoneNumber,
-  onAuthStateChanged
+  onAuthStateChanged,
+  sendEmailVerification
 } from "https://www.gstatic.com/firebasejs/10.12.5/firebase-auth.js";
 
 import {
@@ -47,6 +48,7 @@ export {
   addDoc,
   onSnapshot,
   query, where, 
-  onAuthStateChanged
+  onAuthStateChanged,
+  sendEmailVerification
  
 };

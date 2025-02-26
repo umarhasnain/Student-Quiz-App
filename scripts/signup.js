@@ -111,7 +111,7 @@ if (loginBtn) {
         }
         userSignUp();
 
-        if (user.emailVerified == true) {
+        if (user.emailVerified == false) {
           // new AWN().success("Account Verify Succesfully")
           new AWN().success("Account SignIn Succesfully");
           setTimeout(() => {
@@ -138,7 +138,7 @@ if (loginBtn) {
 }
 
 //Signin With Google
-
+// htmlQuestions
 let signInWithGoogle = document.getElementById("signInWithGoogle");
 let googleSignUp = document.getElementById("googleSignUp");
 let checkFunc = signInWithGoogle || googleSignUp;
